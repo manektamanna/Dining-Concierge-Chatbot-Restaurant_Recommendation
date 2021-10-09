@@ -36,6 +36,7 @@ We gather all of our code here. Note that the code here cannot be run directly b
 4) Based on the parameters collected from the user, push the information collected from the user (location, cuisine, etc.) to an SQS queue (Q1). More on SQS queues here:<br/> https://aws.amazon.com/sqs/<br/>
 ● Also confirm to the user that you received their request and that you will notify them over Email once you have the list of restaurant suggestions.<br/>
  *Amazon Lex a service for building conversational interfaces into any application using voice and text.*<br/>
+ 
 **Amazon SQS**<br/><br/>
 ● Stores user response in a queue which we can pull in another Lambda function to match with out dynamoDB table.<br/>
 *Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.*<br/>
