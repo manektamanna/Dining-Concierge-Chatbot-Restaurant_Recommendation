@@ -65,3 +65,12 @@ We gather all of our code here. Note that the code here cannot be run directly b
 <br/><br/>
 <p style="text-align:center;"><img width="929" alt="Assignment 1 architecture diagram (2)" src="https://user-images.githubusercontent.com/85683392/136674276-74ab5584-40a6-445a-abe0-b5de49488c19.png">
 
+###### Screenshots
+ 
+
+![Screenshot (184)__01](https://user-images.githubusercontent.com/85683392/136675108-bca50815-a9d4-43b7-83ab-be107b375e84.png)
+![Screenshot (185)__01](https://user-images.githubusercontent.com/85683392/136675113-da6b00c6-e131-4aed-b938-48658b86637c.png)
+![Screenshot (186)__01](https://user-images.githubusercontent.com/85683392/136675115-23f529d7-bac5-42a6-aeb4-f8c36bde4868.png)
+![Screenshot (187)__01](https://user-images.githubusercontent.com/85683392/136675118-97904a12-715b-469a-8891-6a0acfd36a30.png)
+
+
