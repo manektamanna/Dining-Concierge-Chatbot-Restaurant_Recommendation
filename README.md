@@ -61,7 +61,17 @@ We gather all of our code here. Note that the code here cannot be run directly b
 ● You only need to store RestaurantID and Cuisine for each restaurant.<br/>
 
 
-###### Architecture View 
+###### Architecture View ######
 <br/><br/>
 <img width="929" alt="Assignment 1 architecture diagram (2)" src="https://user-images.githubusercontent.com/85683392/136674276-74ab5584-40a6-445a-abe0-b5de49488c19.png">
+
+###### ScreenShots ######
+![Screenshot (184)](https://user-images.githubusercontent.com/85683392/136674749-4928e471-fea3-4953-9423-0c2b875c0400.png)</br></br>
+![Screenshot (185)](https://user-images.githubusercontent.com/85683392/136674757-87f0cfc2-a74a-4eb2-a3a3-3dfc616ffdb7.png)</br></br>
+![Screenshot (186)](https://user-images.githubusercontent.com/85683392/136674765-b7751bf2-f887-449a-b916-05262cd0b1ca.png)</br></br>
+![Screenshot (187)](https://user-images.githubusercontent.com/85683392/136674767-00410106-1e45-42b6-bdbe-ee21f4289cf2.png)</br></br>
+
+
+
+
 
