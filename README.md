@@ -7,6 +7,7 @@ We gather all of our code here. Note that the code here cannot be run directly b
 **AWS S3**
 
 ● It stores all frontend files in a bucket. All HTML,CSS and Js files are stored in the created S3 bucket.<br/>
+● Link to run the chatbot --> http://baltias1.s3-website-us-east-1.amazonaws.com
 *Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.*<br/>
 
 **Amazon API Gateway** (RESTful APIs)
