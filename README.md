@@ -7,6 +7,7 @@ We gather all of our code here. Note that the code here cannot be run directly b
 **AWS S3**<br/><br/>
 ● It stores all frontend files in a bucket.All html,css,and js files are stored in S3 bucket.<br/>
 *Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.*<br/>
+<br></br>
 **Amazon API Gateway** (RESTful APIs)<br/><br/>
 ● API Gateway can generate an SDK for your API, which you can use in your frontend. It will take care of calling your API, as well as session signing the API calls.<br/>
 *Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. APIs act as the "front     door"   for applications to access data, business logic, or functionality from your backend services. Using API Gateway, you can create RESTful APIs and WebSocket APIs that enable real-time two-way communication applications. API Gateway supports containerized and serverless workloads, as well as web applications.*
