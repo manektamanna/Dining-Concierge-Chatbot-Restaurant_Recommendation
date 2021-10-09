@@ -11,6 +11,7 @@ We gather all of our code here. Note that the code here cannot be run directly b
 **Amazon API Gateway** (RESTful APIs)<br/><br/>
 ● API Gateway can generate an SDK for your API, which you can use in your frontend. It will take care of calling your API, as well as session signing the API calls.<br/>
 *Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. APIs act as the "front     door"   for applications to access data, business logic, or functionality from your backend services. Using API Gateway, you can create RESTful APIs and WebSocket APIs that enable real-time two-way communication applications. API Gateway supports containerized and serverless workloads, as well as web applications.*
+
 **AWS Lambda function**<br/><br/>
 ● Lamda functions handle request from front-end.<br/>
 ● In our project we have total 3 lambda functions . <br/>
