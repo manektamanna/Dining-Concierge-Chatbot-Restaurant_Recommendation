@@ -1,26 +1,26 @@
-# Dining-Concierge-Chatbot-Restaurant_Recommendation<br/>
-This chatbot recommends restaurants to user based on there inputs.We have used different AWS Services to build this project.<br/>
-This is a serverless, microservice-driven web application using AWS (Amazon Web Service). Specifically, it is a Dining Concierge chatbot, that sends customer restaurant suggestions given a set of preferences that he or she provides the chatbot with through conversation.<br/>
+# Dining-Concierge-Chatbot-Restaurant_Recommendation
+
+This is a Amazon Web Service-based chatbot that recommends restaurants to users on the basis of entered requirements such as - Number of people, Cuisine, Time of the day, etc provided via interactive conversations. Several microservices were used in synergy to create this serverless, microservice-driven web application prototype.<br/>
 
 We gather all of our code here. Note that the code here cannot be run directly because we use AWS to delopy this application. Almost half of the work is to create and configure AWS components. The used AWSs are listed as followings:<br/>
 
 **AWS S3**
 
-● It stores all frontend files in a bucket.All html,css,and js files are stored in S3 bucket.<br/>
+● It stores all frontend files in a bucket. All HTML,CSS and Js files are stored in the created S3 bucket.<br/>
 *Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.*<br/>
 
 **Amazon API Gateway** (RESTful APIs)
 
-● API Gateway can generate an SDK for your API, which you can use in your frontend. It will take care of calling your API, as well as session signing the API calls.<br/>
-*Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. APIs act as the "front     door"   for applications to access data, business logic, or functionality from your backend services. Using API Gateway, you can create RESTful APIs and WebSocket APIs that enable real-time two-way communication applications. API Gateway supports containerized and serverless workloads, as well as web applications.*
+● API Gateway can generate an SDK for your API, which can be used in the frontend. It will take care of calling your API, as well as session signing the API calls.<br/>
+*Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. APIs act as the "front door" for applications to access data, business logic, or functionality from your backend services. Using API Gateway, you can create RESTful APIs and WebSocket APIs that enable real-time two-way communication applications. API Gateway supports containerized and serverless workloads, as well as web applications.*
 
 **AWS Lambda function**
 
 ● Lamda functions handle request from front-end.<br/>
-● In our project we have total 3 lambda functions . <br/>
-1) LF0 is connected with API gateway and lambda - Receives requests from API gateway and sends to lex.<br/>
-2) LF1  helps Lex in returning the response, handling the cases and all.<br/>
-3) LF2 for searching in elastic search and returning the restaurant suggestion. LF1 also handles the part  when a successful requests is made to lex(all intents get filled up) will add the request in sqs. SQS will trigger LF2<br/>
+● In our project we have total 3 lambda functions. <br/>
+1) LF0 is connected with API gateway and lambda - Receives requests from API gateway and sends to Lex.<br/>
+2) LF1  helps Lex in returning the response, handling the cases and connecting the obtained values.<br/>
+3) LF2 for searching in elastic search and returning the restaurant suggestion. LF1 also handles the part  when a successful requests is made to Lex (all intents get filled up) will add the request in SQS (Simple Queue Service). SQS will trigger LF2.<br/>
 *AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes.*<br/>
 
 **Amazon Lex**
@@ -61,17 +61,7 @@ We gather all of our code here. Note that the code here cannot be run directly b
 ● You only need to store RestaurantID and Cuisine for each restaurant.<br/>
 
 
-###### Architecture View ######
+###### Architecture View 
 <br/><br/>
-<img width="929" alt="Assignment 1 architecture diagram (2)" src="https://user-images.githubusercontent.com/85683392/136674276-74ab5584-40a6-445a-abe0-b5de49488c19.png">
-
-###### ScreenShots ######
-![Screenshot (184)](https://user-images.githubusercontent.com/85683392/136674749-4928e471-fea3-4953-9423-0c2b875c0400.png)</br></br>
-![Screenshot (185)](https://user-images.githubusercontent.com/85683392/136674757-87f0cfc2-a74a-4eb2-a3a3-3dfc616ffdb7.png)</br></br>
-![Screenshot (186)](https://user-images.githubusercontent.com/85683392/136674765-b7751bf2-f887-449a-b916-05262cd0b1ca.png)</br></br>
-![Screenshot (187)](https://user-images.githubusercontent.com/85683392/136674767-00410106-1e45-42b6-bdbe-ee21f4289cf2.png)</br></br>
-
-
-
-
+<p style="text-align:center;"><img width="929" alt="Assignment 1 architecture diagram (2)" src="https://user-images.githubusercontent.com/85683392/136674276-74ab5584-40a6-445a-abe0-b5de49488c19.png">
 
