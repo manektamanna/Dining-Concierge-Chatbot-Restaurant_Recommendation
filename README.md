@@ -19,6 +19,7 @@ We gather all of our code here. Note that the code here cannot be run directly b
 2) LF1  helps Lex in returning the response, handling the cases and all.<br/>
 3) LF2 for searching in elastic search and returning the restaurant suggestion. LF1 also handles the part  when a successful requests is made to lex(all intents get filled up) will add the request in sqs. SQS will trigger LF2<br/>
 *AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes.*<br/>
+
 **Amazon Lex**<br/><br/>
 1) Implement at least the following three intents:<br/>
 ● GreetingIntent<br/>
