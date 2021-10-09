@@ -40,12 +40,14 @@ We gather all of our code here. Note that the code here cannot be run directly b
 **Amazon SQS**<br/><br/>
 ● Stores user response in a queue which we can pull in another Lambda function to match with out dynamoDB table.<br/>
 *Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.*<br/>
+
 **Amazon DynamoDB**<br/><br/>
 ● Create a DynamoDB table and named “yelp-restaurants”<br/>
 ● Store the restaurants you scrape, in DynamoDB (one thing you will notice is that some restaurants might have more or less fields than others, which makes DynamoDB ideal for storing this data)<br/>
 ● With each item you store, make sure to attach a key to the object named “insertedAtTimestamp” with the value of the time and date of when you inserted the particular record.<br/>
 ● Store those that are necessary for your recommendation. (Requirements: Business ID, Name, Address, Coordinates, Number of Reviews, Rating, Zip Code).<br/>
 *Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale.*<br/>
+
 **Amazon OpenSearch Service (successor to Amazon Elasticsearch Service)**<br/><br/>
 ● Create an ElasticSearch index called “restaurants”<br/>
 ● Create an ElasticSearch type under the index “restaurants” called “Restaurant”<br/>
